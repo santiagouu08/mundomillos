@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: beige;
+    background-image: url('img/fondo.png');
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: blue;
+    align-items: center;
+    padding: 18px;
+}
+.logo{
+    display: flex;
+    align-items:center ;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+a{
+    color: black;
+    text-decoration: underline;
+    
+}
+nav a {
+    font-weight: 600;
+    padding-right: 12px;
+}
+nav a :hover{
+    color: white;
+}
+.contenedor {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.parrafo-borroso {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); 
+  padding: 30px 50px;
+  border-radius: 15px;
+  color: black;
+  font-size: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  max-width: 600px;
+  text-align: center;
+}
